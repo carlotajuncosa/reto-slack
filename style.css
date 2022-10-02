@@ -63,6 +63,7 @@ div {
   border: 1px solid cyan;
 }
 
+/* HEADER */
 header {
   background-color: #541554;
   width: 390px;
@@ -125,6 +126,7 @@ p {
   background-color: white;
   width: 360px;
   padding: 15px 0;
-  border: solid 1px white;
-  border-radius:3px;
-}/*# sourceMappingURL=style.css.map */
+  border: 50;
+}
+
+/* next step estilos botones secundarios *//*# sourceMappingURL=style.css.map */
