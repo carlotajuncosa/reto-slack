@@ -61,6 +61,19 @@ main {
 
 div {
   border: 1px solid cyan;
-  width: 390px;
-  margin-bottom: 10px;
+}
+
+header {
+  background-color: #541554;
+  width: 360px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo {
+  width: 100px;
+}
+
+.header__menu {
+  width: 40px;
 }/*# sourceMappingURL=style.css.map */
