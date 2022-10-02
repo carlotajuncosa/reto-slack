@@ -53,4 +53,14 @@ table {
   border-spacing: 0;
 }
 
-/* Estilos página *//*# sourceMappingURL=style.css.map */
+/* Estilos página */
+main {
+  border: 1px solid green;
+  width: 390px;
+}
+
+div {
+  border: 1px solid cyan;
+  width: 390px;
+  margin-bottom: 10px;
+}/*# sourceMappingURL=style.css.map */
