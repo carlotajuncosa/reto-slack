@@ -2,7 +2,7 @@
 @import './reset.scss';
 
 
-/* Estilos página */
+/* General Style */
 
 main { 
     width: 390px;
@@ -80,4 +80,14 @@ p{
     border: round($number: 50);
 }
 
-/* next step estilos botones secundarios */
+.button--purple{
+    background-color: #541554;
+    color: white;
+    border: 2px solid white;
+}
+
+.button--purpleBorder{
+    border: #541554 solid 2px;
+}
+
+/* next step secondary buttons */
