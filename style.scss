@@ -98,7 +98,7 @@ p{
     justify-content: flex-start;
     overflow: hidden;
     padding-top: 30px;
-    margin-bottom: -40px; /* cheating? */
+    margin-bottom: -58px; /* cheating? */
 }
 
 .header__video{
@@ -123,9 +123,24 @@ p{
     background-color: #541554;
 }
 
+/* tipos main */
+
+h4{
+    font-size: small;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 15px;
+    background-color: #f4ede4;
+    padding-top: 35px;
+    padding-left: 25px;
+    padding-right: 45px;
+    padding-bottom: 20px;
+
+}
+
 
 .main__item{
-    
     display:flex;
     align-items: center;
     flex-direction: column; 
