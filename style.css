@@ -138,4 +138,15 @@ p {
   border: #541554 solid 2px;
 }
 
+.header__videoContainer {
+  max-width: 390px;
+  box-sizing: inherit;
+  height: auto;
+  padding-top: 20px;
+}
+
+.header__video {
+  max-width: 390px;
+}
+
 /* next step secondary buttons *//*# sourceMappingURL=style.css.map */
