@@ -69,21 +69,23 @@ p{
     font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
     color: #541554;
     font-size: smaller;
-    font-weight: bold;
+    font-weight:450;
     background-color: white;
     width: 360px; 
     padding: 15px 0;
     border: round($number: 50);
+    margin-bottom: 20px;
+    letter-spacing: 1px;
 }
 
 .button--purple{
     background-color: #541554;
     color: white;
-    border: 2px solid white;
+    border: 1px solid #541554;
 }
 
 .button--purpleBorder{
-    border: #541554 solid 2px;
+    border: #541554 solid 1px;
 }
 
 .header__videoContainer{
@@ -147,11 +149,19 @@ h3{
     padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 20px;
+    line-height: 34px;
 }
 
 .p--blackLeft {
     text-align: left;
     color: black;
+}
+
+.p--blackCenter{
+    text-align: center;
+    color: black;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 a{
@@ -187,6 +197,8 @@ section{
     align-items: center;
     flex-direction: column; 
 }
+
+
 
 /* images treatment */
 
