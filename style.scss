@@ -9,10 +9,6 @@ main {
     font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
 }
 
-div{
-    border: 1px solid cyan;
-}
-
 /* HEADER */
 header{
     background-color: #541554;
@@ -152,6 +148,20 @@ h3{
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+/* main containers */
+
+.main__logosDisplay {
+    display:flex;
+    align-items: center;
+    flex-direction: row; 
+}
+
+
+.main__lol{
+    width: 15px;    
+}
+
 .main__item{
     display:flex;
     align-items: center;
