@@ -155,4 +155,18 @@ p {
   pointer-events: none;
 }
 
-/* next step secondary buttons *//*# sourceMappingURL=style.css.map */
+.main__item {
+  width: 390px;
+  background-color: #f4ede4;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main__item--white {
+  background-color: white;
+}
+
+.main__item--purple {
+  background-color: #541554;
+}/*# sourceMappingURL=style.css.map */

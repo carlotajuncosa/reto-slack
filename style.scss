@@ -108,4 +108,18 @@ p{
   
 }
 
-/* next step secondary buttons */
+.main__item{
+    width: 390px;
+    background-color: #f4ede4;
+    display:flex;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.main__item--white{
+    background-color: white;
+}
+
+.main__item--purple{
+    background-color: #541554;
+}
