@@ -152,6 +152,17 @@ h3{
     line-height: 34px;
 }
 
+.h3--quote{
+    text-align: left;
+    font-weight: 347;
+    font-size: 1.2em;
+    font-style: italic;
+    line-height: 30px;
+    padding-left: 30px;
+    padding-top: 60px;
+    
+}
+
 h2{
     font-size: 3em;
     font-weight: 550;
@@ -181,14 +192,39 @@ h2{
     padding-left: 105px;
     padding-right: 105px;
     line-height: 18px;
+}
+.p--smallBold{
+    text-align: left;
+    color: black;
+    font-size: 0.9em;
+    padding-left: 30px;
+    padding-right: 105px;
+    padding-bottom: 0px;
+    line-height: 18px;
+    font-weight: bold;
 
 }
+
+.p--smallerBlack{
+    text-align: left;
+    color: black;
+    font-size: 0.9em;
+    padding-left: 30px;
+    padding-top: 0px;
+    padding-bottom: 15px;
+   
+}
+
 a{
     text-align: left;
     font-size: 1em;
     text-decoration: none;
     color: #1b64a3;
     padding-left: 20px;
+}
+
+.a--morePadding{
+    padding-left: 30px;
 }
 
 /* main containers */
