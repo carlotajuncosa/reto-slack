@@ -58,10 +58,6 @@ main {
   font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
 }
 
-div {
-  border: 1px solid cyan;
-}
-
 /* HEADER */
 header {
   background-color: #541554;
@@ -187,7 +183,7 @@ h3 {
   font-size: 1.7em;
   font-weight: bold;
   text-align: left;
-  padding-left: 5px;
+  padding: 0px 20px;
 }
 
 .h3--center {
@@ -198,8 +194,29 @@ h3 {
   padding-bottom: 10px;
 }
 
+.p--blackLeft {
+  text-align: left;
+  color: black;
+}
+
+/* main containers */
+.main__logosDisplay {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .main__item {
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+
+/* images treatment */
+.article_image {
+  width: auto;
+  height: 390px;
+  padding-top: 30px;
+  padding-bottom: 40px;
 }/*# sourceMappingURL=style.css.map */
