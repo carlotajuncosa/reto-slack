@@ -191,7 +191,7 @@ h3 {
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 .p--blackLeft {
@@ -199,12 +199,30 @@ h3 {
   color: black;
 }
 
+a {
+  text-align: left;
+  font-size: 1em;
+  text-decoration: none;
+  color: #1b64a3;
+  padding-left: 20px;
+}
+
 /* main containers */
+section {
+  background-color: #f4ede4;
+  padding-bottom: 20px;
+}
+
 .main__logosDisplay {
   display: flex;
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  gap: 20px;
 }
 
 .main__item {
@@ -214,9 +232,25 @@ h3 {
 }
 
 /* images treatment */
-.article_image {
+.article__image {
   width: auto;
   height: 390px;
   padding-top: 30px;
   padding-bottom: 40px;
+}
+
+.client__logo {
+  height: 40px;
+}
+
+.client__logo--ubber {
+  height: 25px;
+}
+
+.client__logo--nasa {
+  height: 60px;
+}
+
+.client__logo--long {
+  height: 35px;
 }/*# sourceMappingURL=style.css.map */
