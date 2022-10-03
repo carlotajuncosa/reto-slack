@@ -155,18 +155,22 @@ p {
   pointer-events: none;
 }
 
-.main__item {
+/* main background color */
+.main__background {
   width: 390px;
   background-color: #f4ede4;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
 }
 
-.main__item--white {
+.main__background--white {
   background-color: white;
 }
 
-.main__item--purple {
+.main__background--purple {
   background-color: #541554;
+}
+
+.main__item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }/*# sourceMappingURL=style.css.map */
